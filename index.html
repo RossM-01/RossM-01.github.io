@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="This is the portfolio homepage of Ross Murray, a student at Saint Paul College.">
+	<title>Ross Murray Portfolio :: Home</title>
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+	<!-- Font-Awesome 4 Integration -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Bootstrap Stylesheet -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<img src="images/logo.png" alt="A logo depicting the text 'ross murray.' with a vector-style pencil" height="150" width="300" class="img-fluid logo">
+	</header>
+	<nav>
+		<ul>
+			<li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+			<li> | </li>
+			<li><a href="resume.html"><i class="fa fa-list-alt" aria-hidden="true"></i> Resume</a></li>
+			<li> | </li>
+			<li><a href="game.html"><i class="fa fa-gamepad" aria-hidden="true"></i> Game</a></li>
+			<li> | </li>
+			<li><a href="portfolio.html"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Portfolio</a></li>
+		</ul>
+	</nav>
+	<div class="container-fluid">
+		<div id="home-hero" class="row">
+			<div class="col-sm-12">
+				<h1>Thanks for stopping by my portfolio!</h1>
+			</div>
+		</div>
+	</div>
+	<main>
+		<div class="container-fluid">
+			<div id="about-me" class="row">
+				<div class="col-sm-12">
+					<h1><i class="fa fa-user-circle-o" aria-hidden="true"></i> About Me</h1>
+					<div id="about-me-content">
+						<img src="images/home-image.png" height="600" width="600" alt="Image depicting the letters 'RM'" class="home-image">
+						<p>Hi! My name is <span class="text-highlight">Ross Murray</span> and I study Web Design and Web Programming at <span class="text-highlight-lesser">Saint Paul College</span> in St. Paul, Minnesota.
+						I'm planning on graduating in December 2025 with a Computer Graphics & Visualization AS degree. This website serves as a portfolio of my skills developing and designing websites!
+						</p>
+						<p>Currently, I'm taking the following classes at Saint Paul College:
+						</p>
+						<ul>
+							<li>Web Fundamentals, where I learned HTML & CSS!</li>
+							<li>Introduction to Computer Graphics, where I learned a variety of software to aid in designing websites!</li>
+						</ul>
+						<p>Next semester, I'll be taking Graphical Web Design in order to acquire a better feel for designing websites. In addition to this, I'll also be taking Blogging 
+						Applications to better understand SEO and site traffic analytics.
+						</p>
+						<p>In future, I'll also be taking Digital Sound and Video, and pursuing classes focusing on tools such as Photoshop and Adobe Animate. I'm confident that
+						these will be invaluable to developing my skills as a web developer!
+						</p>
+						<p>A few of my hobbies include video games, photography and graphic design!
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="separator"></div>
+					<h1>Check out these pages too!</h1>
+				</div>
+			</div>
+			<div id="nav-extra" class="row">
+				<div id="icon-resume" class="col-sm-4">
+					<a href="resume.html"><i class="fa fa-list-alt" aria-hidden="true"></i></a>
+					<a href="resume.html"><h4>Resume</h4></a>
+					<p>Hiring? I'm looking for work!</p>
+				</div>
+				<div id="icon-game" class="col-sm-4">
+					<a href="game.html"><i class="fa fa-gamepad" aria-hidden="true"></i></a>
+					<a href="game.html"><h4>Game</h4></a>
+					<p>How far can you get?</p>
+				</div>
+				<div id="icon-portfolio" class="col-sm-4">
+					<a href="portfolio.html"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+					<a href="portfolio.html"><h4>Portfolio</h4></a>
+					<p>See my past work!</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="separator"></div>
+				</div>
+			</div>
+			<div id="photography" class="row">
+				<div class="col-sm-12">
+					<h1><i class="fa fa-camera-retro" aria-hidden="true"></i> Photo Gallery</h1>
+					<div id="photography-content">
+						<div class="gallery">
+							<div class="preview">
+								<img class="img-fluid" img id="preview" src="images/gallery/gallery-photo-1.jpg" style="display:block; margin:0 auto;" alt="A photo of a Japanese-style gate"  height="600" width="800"/>
+							</div>
+							<div class="gallery-thumbnails" style="margin:0 auto; text-align: center;">
+								<img onclick="document.getElementById('preview').src=document.getElementById('img1').src" id="img1" src="images/gallery/gallery-photo-1.jpg" alt="A photo of a Japanese-style gate"/>
+								<img onclick="document.getElementById('preview').src=document.getElementById('img2').src" id="img2" src="images/gallery/gallery-photo-2.jpg" alt="A photo of Lake Superior"/>
+								<img onclick="document.getElementById('preview').src=document.getElementById('img3').src" id="img3" src="images/gallery/gallery-photo-3.jpg" alt="A photo of the Hudson River"/>
+								<img onclick="document.getElementById('preview').src=document.getElementById('img4').src" id="img4" src="images/gallery/gallery-photo-4.jpg" alt="A photo of a lake during fall"/>
+								<img onclick="document.getElementById('preview').src=document.getElementById('img5').src" id="img5" src="images/gallery/gallery-photo-5.jpg" alt="A photo of a Japanese-style rock pond"/>
+								<img onclick="document.getElementById('preview').src=document.getElementById('img6').src" id="img6" src="images/gallery/gallery-photo-6.jpg" alt="A photo of a lotus flower"/>
+								<img onclick="document.getElementById('preview').src=document.getElementById('img7').src" id="img7" src="images/gallery/gallery-photo-7.jpg" alt="A photo of the Minnesota Renaissance Festival entrance"/>
+								<img onclick="document.getElementById('preview').src=document.getElementById('img8').src" id="img8" src="images/gallery/gallery-photo-8.jpg" alt="A photo of a lake with sun glare"/>
+								<img onclick="document.getElementById('preview').src=document.getElementById('img9').src" id="img9" src="images/gallery/gallery-photo-9.jpg" alt="A photo of a Renaissance hotel"/>
+								<img onclick="document.getElementById('preview').src=document.getElementById('img10').src" id="img10" src="images/gallery/gallery-photo-10.jpg" alt="A photo of a Komodo dragon"/>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<div class="container-fluid">
+			<div class="row footer-top">
+				<div class="col-sm-6">
+					<h4>Ross Murray Portfolio</h4>
+					<p>This portfolio website serves as a final project for CSCI 1450 at <a href="https://saintpaul.edu/" target="_blank">Saint Paul College.</a> The images used on this site are a combination of royalty-free pictures 
+					from <a href="https://www.pixabay.com/" target="_blank">Pixabay.com</a> and photographs taken by myself.
+					</p>
+				</div>
+				<div class="col-sm-6">
+					<h4>Get in touch with me!</h4>
+					<div class="footer-icons">
+						<p><a href="https://github.com/RossM-01" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>&nbsp;&nbsp; GitHub</a></p>
+						<p><a href="https://www.linkedin.com/in/ross-murray-2828322a1" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i>&nbsp;&nbsp; LinkedIn</a></p>
+						<p><a href="mailto:rossmurray97100@hotmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;&nbsp; Email Me</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<small>&copy; Ross Murray. All rights reserved.</small>
+		</div>
+	</footer>
+	<!-- jQuery, Popper, and Bootstrap Javascript files -->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

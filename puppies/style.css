@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Jost:wght@400;700&display=swap');
+
+body{
+	font-family: 'Jost', sans-serif;
+	margin: 0;
+	background: #292b65;
+}
+
+h1{
+	font-family: 'Agbalumo';
+	text-align: center;
+	font-size: 4em;
+    font-weight: bold;
+	line-height: 2em;
+	margin-bottom: 0;
+	padding-bottom: .2em;
+	letter-spacing: 2px;
+	color: #fff0d1;
+}
+
+h4{
+	text-align: center;
+	color: #c3c3ff;
+	margin-top: .5em;
+}
+
+main{
+	max-width: 1200px;
+	margin: 20px auto;
+}
+
+footer{
+	text-align: center;
+	border-top: 1px solid #c3c3ff;
+	color: #c3c3ff;
+	padding: 10px;
+	background: #353783;
+}
+
+.home-hero{
+	background-image:url(images/header.jpg);
+	height: 475px;
+	background-size: cover;
+	background-position: center;
+	color: #292b65;
+	border: solid 2px #c3c3ff;
+	border-radius: 10px;
+	padding: 10px 10px 10px 30px;
+}
+.home-hero h2 {
+	font-family: 'Agbalumo';
+	line-height: 1em;
+}
+
+blockquote{
+    background-color: #353783;
+	margin-top: 14px;
+	color: #c3c3ff;
+	font-size: 1.2em;
+	border-radius: 25px;
+    padding: 30px;
+	text-align: center;
+}
+
+img{
+	display: block;
+	margin: 0 auto;
+	border: solid 2px #c3c3ff;
+	border-radius: 10px;
+}
+
+.text-highlight{
+	color: #ffffde;
+}
+
+dl, ol, ul{
+	margin-top: 1em;
+}
+
+nav .fa{
+	color: #c3c3ff;
+	font-size: 1.4em;
+	padding-right: 6px;
+}
+footer .fa {
+	color: #c3c3ff;
+	font-size: 5em;
+}
+
+a:link{
+	color: #ffffde;
+}
+a:visited{
+	color: #ffffde;
+}
+a:hover{
+	color: #89baff;
+}
+a:active{
+	color: #282828;
+}
+
+/* Vertical Navigation Bar */
+
+nav{
+	background-color: #353783;
+	border-top: 2px #c3c3ff solid;
+	border-bottom: 2px #c3c3ff solid;
+	padding: 5px;
+}
+nav ul{
+	list-style-type: none;
+	text-align: center;
+}
+nav li{
+	display: inline;
+}
+nav a{
+	text-decoration: none;
+	padding-right: 30px;
+	font-size: 1.4em;
+}
+nav a:link{
+	color: #c3c3ff;
+}
+nav a:visited{
+	color: #c3c3ff;
+}
+nav a:hover{
+	color: #ffffde;
+}
+nav a:active{
+	color: #282828;
+}
+
+/* CSS for Tablets */
+
+@media only screen and (max-width: 1024px){
+	h1{
+		font-size: 2em;
+	}
+}
+
+/* CSS for Smartphones */
+
+@media only screen and (max-width: 768px){
+	h1{
+		font-size: 1.5em;
+	}
+}

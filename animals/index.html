@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="This is the home page for Animal Photography, a website featuring photographs of various animals.">
+	<title>Animal Photography :: Home</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Bootstrap Stylesheet-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>ANIMAL PHOTOGRAPHY</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="#">PHOTOS</a></li>
+			<li><a href="#">ABOUT</a></li>
+			<li><a href="#">CONTACT</a></li>
+		</ul>
+	</nav>
+	<main>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-12">
+					<img class="img-fluid" src="images/hero-eagle.jpg" width="1200" height="400" alt="A photo of a bald eagle">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-2">
+					<i class="fa fa-camera-retro" aria-hidden="true"></i>
+				</div>
+				<div class="col-sm-10">
+					<p>The website features photographs of animals from <a href="https://www.pixabay.com/" target="_blank">Pixabay.com.</a> The key to animal photography is patience. It can take a long time to get the right lighting and best
+					view of the animal. When photographing animals, you do not have a lot of control... you need to wait for them.
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="gallery">
+						<div class="preview">
+							<img class="img-fluid" img id="preview" src="images/gallery-lizard.jpg" style="display:block; margin:0 auto;" alt="A photo of a lizard"  height="600" width="800"/>
+						</div>
+						<div class="gallery-thumbnails" style="margin:0 auto; text-align: center;">
+							<img onclick="document.getElementById('preview').src=document.getElementById('img1').src" id="img1" src="images/gallery-spider.jpg" alt="A photo of a spider"/>
+							<img onclick="document.getElementById('preview').src=document.getElementById('img2').src" id="img2" src="images/gallery-fox.jpg" alt="A photo of a red fox"/>
+							<img onclick="document.getElementById('preview').src=document.getElementById('img3').src" id="img3" src="images/gallery-bison.jpg" alt="A photo of a bison"/>
+							<img onclick="document.getElementById('preview').src=document.getElementById('img4').src" id="img4" src="images/gallery-deer.jpg" alt="A photo of a deer"/>
+							<img onclick="document.getElementById('preview').src=document.getElementById('img5').src" id="img5" src="images/gallery-frog.jpg" alt="A photo of a frog"/>
+							<img onclick="document.getElementById('preview').src=document.getElementById('img6').src" id="img6" src="images/gallery-hedgehog.jpg" alt="A photo of a hedgehog"/>
+							<img onclick="document.getElementById('preview').src=document.getElementById('img7').src" id="img7" src="images/gallery-otter.jpg" alt="A photo of an otter"/>
+							<img onclick="document.getElementById('preview').src=document.getElementById('img8').src" id="img8" src="images/gallery-rabbit.jpg" alt="A photo of a rabbit"/>
+							<img onclick="document.getElementById('preview').src=document.getElementById('img9').src" id="img9" src="images/gallery-turtle.jpg" alt="A photo of a turtle"/>
+							<img onclick="document.getElementById('preview').src=document.getElementById('img10').src" id="img10" src="images/gallery-sheep.jpg" alt="A photo of a sheep"/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<div class="primary-footer">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-sm-6">
+						<h4>Web Design Exercise</h4>
+						<p>Animal Photography is a website exercise on image galleries available on <a href="https://www.webdevstudents.com/" target="_blank">WebDevStudents.com.</a> The images are royalty-free photos from <a href="https://www.pixabay.com/" target="_blank">Pixabay.com.</a> JavaScript was used 
+						to make the photo gallery, and Bootstrap columns for responsive layout.
+						</p>
+					</div>
+					<div class="col-sm-6">
+						<h4>Connect with Animal Photography!</h4>
+						<p><i class="fa fa-facebook-square" aria-hidden="true"></i>&nbsp;&nbsp; Facebook</p>
+						<p><i class="fa fa-instagram" aria-hidden="true"></i>&nbsp;&nbsp; Instagram</p>
+						<p><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;&nbsp; Email Us</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-footer">
+			<small>&copy; Ross Murray. All rights reserved.</small>
+		</div>
+	</footer>
+	<!--jQuery, Popper, and Bootstrap Javascript files-->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

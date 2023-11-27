@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Roboto+Slab:wght@400;700&display=swap');
+
+body{
+	font-family: 'Roboto Slab', serif;
+	margin: 0;
+	background: #3d312d;
+	color: #efefef;
+}
+
+h1{
+	font-family: 'Belanosima', sans-serif;
+	text-align: center;
+	font-size: 4em;
+    font-weight: bold;
+	line-height: 1.4em;
+	letter-spacing: 2px;
+	margin-bottom: 0;
+	color: #fdbe01;
+}
+
+main{
+	max-width: 1200px;
+	margin: 20px auto;
+}
+
+p{
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.col-sm-2{
+	padding: 1em;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.col-sm-10{
+	padding: 1em;
+}
+
+.fa-camera-retro{
+	font-size: 5em;
+	color: #fdbe01;
+}
+
+img{
+	border: 2px solid;
+	border-color: #fdbe01 #d78305 #d78305 #fdbe01;
+	padding: 4px;
+}
+
+header{
+	background: #354b2c;
+}
+
+footer{
+	border-top: 4px solid #7e4c03;
+	padding-top: 15px;
+	background: #fdbe01;
+	color: #3d312d;
+}
+.primary-footer{
+	padding-left: 12%;
+	border-bottom: 2px solid #a86500;
+}
+.copyright-footer{
+	background: #354b2c;
+	color: #fdbe01;
+	padding: 15px;
+	text-align: center;
+}
+
+dl, ol, ul{
+	margin-top: 1em;
+}
+
+footer a:link{
+	color: #268026;
+}
+footer a:visited{
+	color: #268026;
+}
+footer a:hover{
+	color: #a86500;
+}
+footer a:active{
+	color: #ffedb5;
+}
+
+a:link{
+	color: #fdbe01;
+}
+a:visited{
+	color: #fdbe01;
+}
+a:hover{
+	color: #5cb551;
+}
+a:active{
+	color: #ffedb5;
+}
+
+/* Photo Gallery */
+
+.gallery .preview{
+	width: 100%;
+	height: auto;
+}
+.gallery .gallery-thumbnails img{
+	width: 100px;
+	height: 75px;
+	margin: 20px 10px 10px 0;
+}
+.gallery .gallery-thumbnails img:hover{
+	opacity: .8;
+	cursor: pointer;
+}
+.gallery .preview img #preview{
+	padding: 1px;
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto !important;
+	display: block !important;
+}
+
+/* Vertical Navigation Bar */
+
+nav{
+	background-color: #fdbe01;
+	border-top: 2px #a86500 solid;
+	border-bottom: 4px #7e4c03 solid;
+}
+nav ul{
+	list-style-type: none;
+	text-align: center;
+}
+nav li{
+	display: inline;
+}
+nav a{
+	text-decoration: none;
+	padding-right: 30px;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+nav a:link{
+	color: #7a4d0a;
+}
+nav a:visited{
+	color: #7a4d0a;
+}
+nav a:hover{
+	color: #268026;
+}
+nav a:active{
+	color: #4b2e03;
+}
+
+/* CSS for Tablets */
+
+@media only screen and (max-width: 1024px){
+	h1{
+		font-size: 2em;
+	}
+}
+
+/* CSS for Smartphones */
+
+@media only screen and (max-width: 768px){
+	h1{
+		font-size: 1.5em;
+	}
+}
